@@ -3,9 +3,9 @@ module.exports = {
   content: ["./index.html"],
   theme: {
     extend: {
-      fontFamily:{
-        'amatic': ['"Amatic SC"', 'cursive'],
-      }
+      backgroundImage: {
+        'backHome': "url('../assets/img/backHome.jpg')",
+      },
     },
   },
   plugins: [],

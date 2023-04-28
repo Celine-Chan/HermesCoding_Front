@@ -10,10 +10,10 @@
 </head>
 
 <body id="top">
-    <header class="bg-white z-50 fixed top-0 w-full shadow">
-        <nav id="main-nav" class="bg-white max-w-5xl mx-auto font-poppins p-6 flex items-center justify-between">
+    <header class="bg-transparent z-50 fixed top-0 w-full">
+        <nav id="main-nav" class="bg-white md:bg-transparent max-w-5xl mx-auto font-poppins p-6 flex items-center justify-between">
             <a href="top" class="flex" aria-label="Page d'accueil Hermes Coding">
-                <!-- <img src="assets/img/logo_CL2.png" class="hidden md:w-7 md:inline md:mr-4" alt=""> -->
+                <!-- <img src="assets/img/logo_CL2.png" class="hidden md:w-7 md:inline md:mr-4" alt="">-->
                 <span aria-hidden="true" class="text-lg text-black lg:text-xl">Hermes <strong>Coding</strong>
                 </span>
             </a>
@@ -21,7 +21,7 @@
                 <img src="assets/img/menu.png" alt="">
             </button>
             <ul id="toggled-menu"
-                class="w-full absolute top-full left-0 -translate-y-full -z-10 text-black border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row">
+                class="w-full absolute top-full left-0 -translate-y-full -z-10 bg-white md:bg-transparent text-black border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row">
                 <li class="py-4 md:py-0 md:mr-6">
                     <a href="#home"
                         class="text-sm text-black uppercase font-semibold w-full">Home</a>
@@ -40,7 +40,12 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </header> 
+
+    <div class="h-screen bg-backHome bg-no-repeat">
+        <h1 class="text-white text-center pt-[15rem] text-7xl">HERMES CODING</h1>
+        <h2 class="text-white text-center text-5xl mt-[2rem]">développement web & Application mobile</h2>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>
